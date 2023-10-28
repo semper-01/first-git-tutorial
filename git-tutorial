@@ -1,0 +1,9 @@
+txt="my name is {} and I'm {} years old"
+name=str(input("enter your name:"))
+age=int(input("enter your age:"))
+
+print(txt.format(name,age))
+if age>=65:
+ print("person is adult")
+else:
+    print("person is young")
